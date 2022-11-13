@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LAYOUT8</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			font-family: sans-serif;
+		}
+
+		body{
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-left: 30%;
+		}
+
+		.border{
+			height: 100vh;
+			width: 70%;
+			border: 2px solid lightgrey;
+			padding: 10px;
+			float: left;
+		}
+
+		.header{
+			height: 20%;
+			width: 100%;
+			font-size: 20px;
+			border: 2px solid lightgrey;
+			padding-top: 10px;
+			padding-left: 10px;
+			float: left;
+		}
+
+		.sitetitle{
+			font-size: 30px;
+			letter-spacing: 5px;
+		}
+
+		.content{
+			height: 70%;
+			width: 100%;
+			margin-top: 5px;
+			float: left;
+		}
+
+		.centercolumn{
+			height: 75%;
+			width: 69%;
+			font-size: 15px;
+			float: left;
+		}
+
+		.header2{
+			height: 100%;
+			width: 100%;
+			font-size: 15px;
+			margin-top: 5px;
+			float: left;
+		}
+
+		.blockquote{
+            height: 20%;
+            width: 95%;
+            font-size: 15px;
+            background-color: lightgrey;
+            border-top: 2px solid grey;
+            border-bottom: 2px solid grey;
+            margin-top: 2px;
+            margin-left: 30px;
+            padding-top: 10px;
+            padding-left: 7px;
+            float: right;
+		}
+
+		.rightcolumn{
+			height: 45%;
+			width: 30%;
+			border: 2px solid lightgrey;
+			font-size: 17px;
+			padding-top: 5px;
+			padding-left: 5px;
+			float: right;
+		}
+
+		.footer{
+			height: 10%;
+			width: 100%;
+			border-top: 2px solid lightgrey;
+			padding-top: 30px;
+			padding-left: 150px;
+			float: left;
+		}
+
+		.footer .components{
+			text-decoration: underline;
+			text-decoration-color: red;
+			font-size: 15px;
+			text-align: center;
+			border-right: 2px solid lightgrey;
+			padding-right: 5px;
+			margin-right: 5px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="border">
+		<div class="header">
+		    <div class="sitetitle">site title</div>
+		    fixed 1-column layout (basic)
+	    </div>
+
+	    <div class="content">
+		    <div class="rightcolumn">
+			    fauxRightColumn</br>
+
+			    <a href="#">Link Item</a></br>
+			    <a href="#">Link Item</a></br>
+			    <a href="#">Link Item</a></br>
+
+			    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		        tempor incididunt ut labore et dolore magna aliqua.
+		    </div>
+
+		    <div class="centercolumn">
+			    <span style="font-size: 20px;letter-spacing: 2px;">centerColumn</span></br>
+		        </br>
+		        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+	            <div class="header2">
+			        <span style="font-size: 25px;letter-spacing: 2px;">Header 2</span></br>
+    
+    			    <a href="#">Link Item</a><br>
+    
+    		        <ul>
+    		        	<li>List Item</li>
+    		        	<li>List Item</li>
+    		        	<li>List Item</li>
+            
+            		    <ul>
+            	         	<li>List Item</li>
+            		        <li>List Item</li>
+    	    	        </ul>
+    	    	    </ul>
+		        </div>
+		    </div>
+
+		    <div class="blockquote">
+			    <b style="font-size: 20px;">blockquote</b></br>
+   
+    			Lorem ipsum dolor sit amet, consect eturadi pisici
+    			ngelit, sed do eiusmod
+    			tempor incididunt ut labore et dolore magna aliqua.
+		    </div>   
+	    </div>
+
+	    <div class="footer">
+	    	<div class="components"><a href="#">XHTML</a></div>
+	    	<div class="components"><a href="#">CSS</a></div>
+	    	<div class="components"><a href="#">WCAG</a></div>
+	    	<div class="components" style="border-right: none;">
+	    		<a href="#">The CSS Tinderbox</a>
+	    	</div>
+	    </div>
+
+	</div>
+	
+</body>
+</html>
